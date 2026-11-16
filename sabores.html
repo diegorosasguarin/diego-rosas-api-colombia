@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Catálogo gastronómico de platos típicos de Colombia consumiendo datos desde API Colombia.">
+  <title>Sabores de Colombia | Mini Portal API Colombia</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/sabores.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="brand" aria-label="Inicio - Mini Portal de Colombia">
+      <span class="brand-flag" aria-hidden="true"></span>
+      <span class="brand-text">Portal Colombia API</span>
+    </a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="index.html" class="nav-link">Departamentos</a>
+      <a href="sabores.html" class="nav-link active" aria-current="page">Sabores de Colombia</a>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <section class="hero hero-sabores">
+      <span class="hero-tag">Patrimonio Gastronómico · API Colombia</span>
+      <h1>Sabores de Colombia</h1>
+      <p>Recorre la riqueza culinaria del país a través de sus platos típicos más emblemáticos y su departamento de origen.</p>
+    </section>
+
+    <section class="stats-section" aria-labelledby="titulo-resumen-sabores">
+      <div class="section-header">
+        <h2 id="titulo-resumen-sabores" class="section-title">Resumen Gastronómico</h2>
+        <span class="section-subtitle">Conteo dinámico de recetas típicas cargadas</span>
+      </div>
+      <div id="dishes-summary" class="stats-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="catalog-section" aria-labelledby="titulo-platos">
+      <div class="section-header">
+        <h2 id="titulo-platos" class="section-title">Platos Típicos de Colombia</h2>
+        <span id="dishes-count" class="count-badge" aria-live="polite">0 platos</span>
+      </div>
+
+      <div id="loader" class="state-box loader-box" role="status" aria-live="polite">
+        <span class="spinner" aria-hidden="true"></span>
+        <p>Cargando platos típicos de Colombia desde la API...</p>
+      </div>
+
+      <div id="error-box" class="state-box error-box hidden" role="alert"></div>
+
+      <div id="dishes-grid" class="cards-grid dishes-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Mini Portal de Colombia · Fuente de datos: <a href="https://api-colombia.com/" target="_blank" rel="noopener noreferrer">api-colombia.com</a></p>
+    <p>Desarrollado por <strong>Frank Diego Rosas Guarín</strong> · <a href="index.html">&larr; Volver a Departamentos</a></p>
+  </footer>
+</body>
+</html>
