@@ -41,9 +41,27 @@ El portal desarrolla **2 secciones independientes** conectadas mediante hiperví
      Luego abrir `http://localhost:8000` en el navegador.
    - **Opción C (Directo)**: Abrir el archivo `index.html` con doble clic en cualquier navegador moderno (Chrome, Firefox, Edge, Safari) con conexión a internet.
 
-## 5. Capturas (opcional)
-- **Vista 1 (`index.html`)**: Panel superior con el conteo de departamentos por región y cuadrícula responsiva con las tarjetas de los 33 departamentos de Colombia.
-- **Vista 2 (`sabores.html`)**: Contador total de platos típicos y galería gastronómica con fotografía, departamento de origen y descripción de cada receta.
+## 5. Capturas de la Aplicación
+
+### Explorador de Departamentos (`index.html`)
+* **Panel superior con el conteo de departamentos por región y estadísticas nacionales:**
+  <br>
+  <img src="img/departamentos_1.png" alt="Vista superior de conteo de departamentos por región" width="100%">
+
+* **Cuadrícula responsiva con las tarjetas de los 33 departamentos de Colombia:**
+  <br>
+  <img src="img/departamentos_2.png" alt="Grid de tarjetas de departamentos de Colombia" width="100%">
+
+---
+
+### Sabores de Colombia (`sabores.html`)
+* **Contador total de platos típicos y resumen gastronómico:**
+  <br>
+  <img src="img/sabores_1.png" alt="Resumen de platos típicos de Colombia" width="100%">
+
+* **Galería gastronómica con fotografía, departamento de origen y descripción de cada receta:**
+  <br>
+  <img src="img/sabores_2.png" alt="Galería de platos típicos y gastronomía nacional" width="100%">
 
 ## 6. Nombre del estudiante
 **Frank Diego Rosas Guarín**
