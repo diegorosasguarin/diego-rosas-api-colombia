@@ -35,7 +35,7 @@ const REEMPLAZOS_POR_PLATO = [
   },
   {
     clave: "tamal",
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Tamal_tolimense.jpg/640px-Tamal_tolimense.jpg",
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Tamal_tolimense_sin_abrir.jpg/960px-Tamal_tolimense_sin_abrir.jpg?utm_source=es.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
   },
   {
     clave: "empanada",
@@ -49,6 +49,18 @@ const REEMPLAZOS_POR_PLATO = [
     clave: "arroz con coco",
     url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Arroz_con_coco_y_pescado_frito.jpg/640px-Arroz_con_coco_y_pescado_frito.jpg",
   },
+
+{
+    clave: "arroz de lisa",
+    url: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Arroz_de_liza.jpg/960px-Arroz_de_liza.jpg?utm_source=es.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  },
+
+
+  {
+    clave: "dulce de guayaba",
+    url: "https://upload.wikimedia.org/wikipedia/commons/6/60/Bocadillo.jpg?utm_source=es.wikipedia.org&utm_campaign=imageinfo&utm_content=original",
+  },
+
   {
     clave: "pandebono",
     url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Pandebono_colombiano.jpg/640px-Pandebono_colombiano.jpg",
